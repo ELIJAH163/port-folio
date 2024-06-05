@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: o;
+  scroll-behavior: smooth;
+  /* height: auto; */
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: auto;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color:#FFFDB5 ;
+  border-radius: 15px;
+
+}
+.logo {
+  max-width: 100%;
+  width: 130px;
+  height: auto;
+}
+nav {
+  flex-basis: 50%;
+  padding: 10px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+nav li {
+  position: relative;
+}
+#contact-btn {
+  border: 2px solid teal;
+  padding: 10px;
+  background-color: aquamarine;
+  border-radius: 6px;
+}
+a {
+  text-decoration: none;
+}
+body {
+  padding: 30px;
+  align-items: center;
+  margin: 45px;
+  padding: 30px;
+  background-color: #FFBF78;
+  border: 2px groove red;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: x-large;
+  border-radius: 30px;
+
+}
+#name {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+  font-family: "Poetsen One", sans-serif;
+}
+h3, h5 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: italic;
+}
+p, h4{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+#bio-section{
+    display: flex;
+    font-size: x-large
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+#name-pic{
+    display: flex;
+    margin-left: 70px;
+
+}
+.icons{
+  display: block;
+}
+#p-sec{
+  justify-content: flex-start;
+  width: 500px;;
+  font-size: x-large;
+  align-items: center;
+}
+#keyboard-section{
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+#Portfolio {
+  text-align: center;
+  /* border: 2px solid red; */
+  padding: 30px;
+  font-size: large;
+}
+#projects{
+  display: flex;
+  justify-content:  space-around;
+  align-items: center;
+  /* border: 2px solid red; */
+  padding: 50px;
+  /* height: 300px; */
+}
+#projects p{
+  /* border: 2px solid red; */
+  width: 100%;
+  font-size: x-large;
+}
+#projects div{
+  align-items: center;
+  padding: 80px;
+  border: 3px solid teal;
+  border-radius: 20px;
+  width: 30%;
+}
+footer{
+  align-items: center;
+  justify-items: center;
+}
+@media (max-width: 1060px) and (min-width:  302px){
+  header{
+    width: auto;
+  }
+  body{
+    width: auto;
+  }
+  #keyboard-section{
+    flex-direction: column;
+    display: flex;
+    
+  }
+  #projects{
+    flex-direction: column;
+  }
+  #projects div{
+    width: 80%;
+    border: none;
+  }
+}
+
+
